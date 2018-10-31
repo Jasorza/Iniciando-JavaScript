@@ -19,6 +19,7 @@ mayor de 18 indicar ques es mayr de edad, de lo contrario seria
 un menor de edad, si tiene la edad menor o igual a 33 decir 
 (eres milenial), si es mayor o igual a 70 (eres un anciano), 
 y si es mayor o igual 33 decir (ya no eres milenial)*/
+/*
 var num1=prompt("Ingrese su edad");
 alert(num1);
 if(num1<=17){
@@ -31,4 +32,67 @@ if(num1<=17){
     alert("Ya no eres un Milenial", num1);
 } else if(num1>=70){
     alert("Eres un anciano", num1);
+}
+*/
+/*
+var edades=prompt("Ingrese su edad");
+function calcularEdad(ed)
+{
+if(ed >=18){
+    console.log("Usted es mayor de edad");
+    if(ed<=33){
+        console.log("Usted es milenial", ed);
+    } else if(ed=70){
+        console.log("Usted es un anciano", ed);
+    } else{
+        console.log("Usted ya no es un milenial", ed);
+    }
+}
+else{
+    console.log("Usted es un menor de edad", ed);
+}
+}
+
+/**Operadores de comparacion*/
+/*var a=5;
+var b=5;
+if(a==b){
+    console.log=("A y B son Iguales");
+}
+if(a===b){
+    console.log=("A y B son iguales en tipo y valor")
+} else {
+    console.log=("No son iguales en tipo y valor")
+}
+/**Operador ternario */
+/*if(a==b){
+    aux=5;
+    console.log=(aux);
+} else{
+    aux=10;
+    console.log=(aux);
+}
+var result=a==b? 10 : 20;
+console.log=(result);
+
+var year=prompt("instroduzca un año");
+var resultado= year!=2018? true:false;
+alert ("", resultado);
+
+/**Switch */
+var day=prompt("Introduzca un dia de la semana"); 
+debugger{
+    switch(day){
+        case "sabado": 
+        console.log=("BVoy ir al cine");
+        break;
+        case "domingo":
+        console.log=("Voy hacer deporte");
+        break;
+        case "lunes":
+        console.log=("Voy a trabajar");
+        break;
+        default:
+        console.log=("No es un dia valido");
+    }
 }
