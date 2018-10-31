@@ -81,7 +81,7 @@ alert ("", resultado);
 
 /**Switch */
 var day=prompt("Introduzca un dia de la semana"); 
-debugger{
+function setDay(day){
     switch(day){
         case "sabado": 
         console.log=("BVoy ir al cine");
@@ -96,3 +96,6 @@ debugger{
         console.log=("No es un dia valido");
     }
 }
+setDay(day);
+setDay("Domingo");
+setDay(13);
