@@ -103,3 +103,9 @@ while (user!=name&&password!=pass&&count<5) {
     password=prompt("Ingrese su contraseña");
 }
 */
+var number=prompt("Ingrese el de la tabla que desea ver");
+var max=prompt("Ingrese hasta que numero que desea ver las tablas");
+for (let index = 1; index <=10; index++) {
+    document.write("<p>"+number+" x "+index+" = "+(number*index)+"</p>");    
+}
+document.write("");
