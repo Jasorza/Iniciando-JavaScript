@@ -77,17 +77,29 @@ while (isNaN(num)) {
 
 
 
-/** */
-var user=prompt("Ingrese su usuario");
+/** 
+ * var user=prompt("Ingrese su usuario");
 var password=prompt("Ingrese su Contraseña");
-var user="dayana";
-var password=12345;
-count=5;
-while (user) {
-    user=prompt("ingrese su usuario");
-    password=prompt("Ingrese su contraseña");
-    if(!isNaN(num)&&num>0){
-        sum+=num;
-        count++;
+var name="dayana";
+var pass=12345;
+count=0;
+/*while(user!=name&&password!=pass&&count<5){
+    if (password == "") {
+    alert("Introduzca su contraseña!")
+    return false
+    }
+    if (password == "12345") {
+    alert("Contraseña correcta");
+    return false;
+    }
+    else {
+    alert("Contraseña incorrecta, intente de nuevo")
     }
 }
+while (user!=name&&password!=pass&&count<5) {
+    alert("Usario Incorrecto");
+    count++;
+    user=prompt("ingrese su usuario");
+    password=prompt("Ingrese su contraseña");
+}
+*/
