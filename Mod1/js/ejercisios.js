@@ -38,7 +38,8 @@ alert("La sumatoria "+sum+"\n"+"El promedio es "+average);
 
 /** Mostrar todos los numeros que hay entre un rango inicial y un rango final suministrado por el usuario  */
 /**Mostrar todos los numeros pares entre dos rangos que suministre el usuario */
-/*var irank=parseInt(prompt("Ingrese el rango inicial"));
+/*
+var irank=parseInt(prompt("Ingrese el rango inicial"));
 var frank=parseInt(prompt("Ingrese el ango final"));
 if(irank<frank&&!isNaN(irank)&&!isNaN(frank)&&irank>0 &&frank>irank){
     document.write("<h1>De "+irank+" Hasta "+frank+" Esxisten los siguientes numero pares: </h1>");
@@ -77,16 +78,16 @@ while (isNaN(num)) {
 
 
 /** */
+var user=prompt("Ingrese su usuario");
+var password=prompt("Ingrese su Contraseña");
 var user="dayana";
 var password=12345;
-do{
-    var user=prompt("Ingrese su usuario");
-    var password=prompt("Ingrese su Contraseña");
-    alert("Bienvenida al Sistema");
-} while(user!="dayana"){
-   
-} while(password!=12345){
-    
+count=5;
+while (user) {
+    user=prompt("ingrese su usuario");
+    password=prompt("Ingrese su contraseña");
+    if(!isNaN(num)&&num>0){
+        sum+=num;
+        count++;
+    }
 }
-
-

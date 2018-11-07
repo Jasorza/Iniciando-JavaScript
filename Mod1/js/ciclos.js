@@ -22,7 +22,7 @@ while (num!=0){
 console.log("La sumatoria de los numero es: ", sum);
 
 /**Ciclo do while */
-
+debugger;
 var sum=0;
 do{
     var num=prompt("Ingrese un numero");
