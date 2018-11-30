@@ -49,6 +49,7 @@ console.log("la concatenacion es", String(num1)+String(num2));
 //**Ventanas */
 var modelo=prompt("el modelo del carro es:", 2018); //**Valor por defecto */
 /**Alertas */
+alert(edad);
 /**Conf */
 var Conf=confirm("Desea salir de la App")
 console.log("Confirmacion", Conf);
