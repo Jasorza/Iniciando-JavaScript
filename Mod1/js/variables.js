@@ -6,7 +6,7 @@
 /*console.log("Esta es mi edad",edad);
 alert(edad);
 
-//*Variables Numericas*//
+//*Variables Numericas*/
 var num=5;
 console.log("num", num);
 
